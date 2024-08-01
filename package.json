@@ -1,0 +1,23 @@
+{
+  "name": "ai-in-business",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LifeMystery/AI-in-Business.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LifeMystery/AI-in-Business/issues"
+  },
+  "homepage": "https://github.com/LifeMystery/AI-in-Business#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.7"
+  }
+}
