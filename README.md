@@ -36,15 +36,18 @@ npm install
 
 
 3. Set Up the Environment:
-Update the config.json file with your specific settings and API keys (if applicable).
+Update the config.json file with your specific settings.
 
 4. Run the Application:
 Start the Python backend:
-python main.py
+python generate_locaton.py
+python prediction.py
+python scrap.py
 For the frontend, use the following command to build and watch for changes:
-npm run build
+npm run build.
+or launch live server for dashboard.html (install live extension on vs code)
 
-5. Access the Application:
+6. Access the Application:
 Open your browser and navigate to http://localhost:8000 (or the port specified in your configuration) to view the dashboard and insights.
 
 Project Structure
