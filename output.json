@@ -1,0 +1,11 @@
+{
+    "predicted_unemployment_rate_nn": "15.42%",
+    "predicted_cpi_nn": "2.99",
+    "overall_trend_percentage": "63.13%",
+    "overall_trend": "Positive",
+    "business_tips": [
+        "Consider decreasing prices to attract more customers.",
+        "Be cautious with expansion plans due to high unemployment.",
+        "The overall trend is positive; consider aggressive expansion strategies."
+    ]
+}

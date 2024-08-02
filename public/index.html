@@ -4,11 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./style.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline" id="hello">
-    Hello world!
-  </h1>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h3 class="text-xl font-semibold text-gray-800 mb-4">Graphs</h3>
+          <div id="graph2" class="w-full h-[600px] bg-gray-100 rounded-lg flex items-center justify-center">
+            <img src="/cpi.png" alt="CPI Graph" class="max-w-full max-h-full object-contain">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="articles" class="p-6">
+    <div class="max-w-8xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden flex">
+      <img class="w-1/3 h-auto object-cover" src="https://via.placeholder.com/400x250" alt="Article Image">
+      <div class="p-6 w-2/3">
+        <h3 class="text-2xl font-bold mb-2">AI analysis conclusion</h3>
+        <p class="text-gray-700 mb-4" id="unemployed">This is a short description of the article. It gives a brief overview of the content to entice readers to click through and read more.</p>
+        <p class="text-gray-700 mb-4" id="cpi">This is a short description of the article. It gives a brief overview of the content to entice readers to click through and read more.</p>
+        <p class="text-gray-700 mb-4" id="Percentage">This is a short description of the article. It gives a brief overview of the content to entice readers to click through and read more.</p>
+        <p class="text-gray-700 mb-4" id="trend">This is a short description of the article. It gives a brief overview of the content to entice readers to click through and read more.</p>
+        <p class="text-gray-700 mb-4" id="businessT">Business tip:<br>This is a short description of the article. It gives a brief overview of the content to entice readers to click through and read more.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black py-6">
+    <div class="container mx-auto text-center text-gray-400">
+      <p>&copy; 2024 TechTitans. All rights reserved.</p>
+    </div>
+  </footer>
 
   <script src="/src/js/main.js"></script>
 </body>
