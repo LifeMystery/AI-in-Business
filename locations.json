@@ -1,0 +1,15 @@
+{
+    "top_locations": [
+        {
+            "name": "New York",
+            "count": 3
+        },
+        {
+            "name": "San Francisco",
+            "count": 3
+        }
+    ],
+    "trend": "up",
+    "percentage": 18,
+    "current_total_users": 2500
+}
