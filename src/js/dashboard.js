@@ -53,3 +53,20 @@ fetch('../locations.json')
       })
       .catch(error => console.error('Error fetching trend data:', error));
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Fetch the JSON file
+  fetch('../summary.json')
+      .then(response => response.json())
+      .then(data => {
+          // Get the summary from the JSON data
+          const summary = data.summary;
+
+          // Find the paragraph element and update its text content
+          const paragraph = document.querySelector('#articles p');
+          paragraph.textContent = summary;
+      })
+      .catch(error => {
+          console.error('Error fetching the JSON file:', error);
+      });
+});

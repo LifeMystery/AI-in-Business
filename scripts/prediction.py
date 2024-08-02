@@ -30,6 +30,18 @@ df.index = pd.date_range(start='2022-01-01', periods=len(df), freq='ME')
 
 # Predict next month's value for both unemployment_rate and cpi
 def predict_next_month(data):
+    """
+    Predict the next month's value using polynomial regression.
+
+    Args:
+        data (list of float): Historical data for prediction.
+
+    Returns:
+        tuple: A tuple containing:
+            - next_index (numpy.ndarray): Array of indices for the predictions.
+            - prediction (numpy.ndarray): Predicted values for the next month.
+    """
+
     X = np.arange(len(data)).reshape(-1, 1)
     y = np.array(data)
 
@@ -87,6 +99,18 @@ print(f"Predicted CPI for Next Month: {next_cpi:.2f}")
 
 # Determine trend percentage
 def determine_trend_percentage(unemployment_rate, cpi):
+
+    """
+    Determine the trend percentage based on the predicted values and historical data.
+
+    Args:
+        unemployment_rate (float): Predicted unemployment rate for the next month.
+        cpi (float): Predicted CPI for the next month.
+
+    Returns:
+        float: The overall trend percentage combining unemployment and CPI scores.
+    """
+
     avg_unemployment_rate = np.mean(df['unemployment_rate'])
     avg_cpi = np.mean(df['cpi'])
 
@@ -153,6 +177,19 @@ unemployment_threshold_high = 15.0
 unemployment_threshold_low = 12.0
 
 def generate_business_tips(predicted_unemployment_rate, predicted_cpi, trend_percentage):
+
+    """
+    Generate business tips based on predicted values and overall trend percentage.
+
+    Args:
+        predicted_unemployment_rate (float): Predicted unemployment rate for the next month.
+        predicted_cpi (float): Predicted CPI for the next month.
+        trend_percentage (float): Overall trend percentage combining unemployment and CPI scores.
+
+    Returns:
+        list of str: List of business tips based on the analysis.
+    """
+
     tips = []
     
     if predicted_cpi > cpi_threshold_high:
