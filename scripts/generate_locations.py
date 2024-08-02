@@ -14,10 +14,10 @@ def calculate_growth(previous_total, current_total):
     return percentage_change, trend
 
 def main():
-    prev_total_users = 10  # Example previous total users, replace with actual value if available
+    prev_total_users = 16  # Example previous total users, replace with actual value if available
     user_locations = [
-        "New York", "Los Angeles", "New York", "Chicago", "Los Angeles",
-        "San Francisco", "Chicago", "New York", "San Francisco", "San Francisco"
+        "Rosebank", "Daveyton", "Rosebank", "Cape Town", "Cape Town",
+        "Pretoria", "Mpumalanga", "Rosebank", "Pretoria", "Pretoria"
     ]
     current_total_users = len(user_locations)
     percentage_change, trend = calculate_growth(prev_total_users, current_total_users)

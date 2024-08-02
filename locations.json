@@ -1,15 +1,15 @@
 {
     "top_locations": [
         {
-            "name": "wtc",
+            "name": "Rosebank",
             "count": 3
         },
         {
-            "name": "San Francisco",
+            "name": "Pretoria",
             "count": 3
         }
     ],
-    "trend": "up",
-    "percentage": 18,
-    "current_total_users": 2500
+    "trend": "down",
+    "percentage": -37.5,
+    "current_total_users": 10
 }
