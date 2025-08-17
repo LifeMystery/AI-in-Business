@@ -81,4 +81,4 @@ License
 This project is licensed under the MIT License.
 
 Contact
-For any questions or support, please reach out to iaphane023@student.wethinkcode.co.za
+For any questions or support, please reach out to innocentaphane12@gmail.com
