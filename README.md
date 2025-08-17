@@ -3,9 +3,9 @@ AI in Business Project
 Overview
 This project is designed to assist businesses in making informed decisions by analyzing key economic indicators and providing actionable insights. The system leverages artificial intelligence to process and predict the following:
 
-Unemployment Rate and Consumer Price Index (CPI) for the next month.
-Business expansion or defensive strategies based on these economic indicators.
-Client location analysis, including performance changes month-to-month.
+* Unemployment Rate and Consumer Price Index (CPI) for the next month.
+* Business expansion or defensive strategies based on these economic indicators.
+* Client location analysis, including performance changes month-to-month.
 Summarization of relevant business articles to keep owners informed.
 
 Features
