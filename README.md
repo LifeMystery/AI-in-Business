@@ -6,7 +6,7 @@ This project is designed to assist businesses in making informed decisions by an
 * Unemployment Rate and Consumer Price Index (CPI) for the next month.
 * Business expansion or defensive strategies based on these economic indicators.
 * Client location analysis, including performance changes month-to-month. 
- Summarization of relevant business articles to keep owners informed.
+* Summarization of relevant business articles to keep owners informed.
 
 Features
 
